@@ -20,7 +20,7 @@ wait:
 	
 trzecia:	
 	dec R16												; zmniejszamy licznik pierwszej petli
-	breq druga									; jeżeli nie jest równy zero wracamy na początek trzeciej pętli
+	breq druga										; jeżeli nie jest równy zero wracamy na początek trzeciej pętli
 	rjmp trzecia:
 
 druga:	
@@ -30,7 +30,7 @@ druga:
 
 pierwsza:	
 	dec R18												; zmieniejszamy licznik ostatniej petli
-	breq loop									; jeżeli nie jest równy zero wracamy na początek pierwszej pętli
+	breq loop											; jeżeli nie jest równy zero wracamy na początek pierwszej pętli
 	jmp init_pierwsza
 
 
