@@ -20,9 +20,9 @@ loop:
 	
 wait:
 	ldi R18, 0x7									;przygotowanie wartości 
-second_init:	
+first_loop:	
 	ldi R17, 0xFF
-third_init:	
+second_loop:	
 	ldi R16, 0xFF	
 third_loop:
 	dec R16												;trzecia petla (0-0xFF)
