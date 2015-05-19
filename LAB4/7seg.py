@@ -25,10 +25,9 @@ def is_prime(x):
             return False
     return True
 
-for x in [x for x in range(2,100) if is_prime(x)]:
+for x in ['1','2','3','4','5','6','7','8','9','A','B','C','D','E','F']:
     orig = x
-    x = "%.2d" % x
-    buf = ""
+    buf = ''
     while x.isalnum():
         buf += "0x%X " % konwerter[x[0]]
         x = x[1:]
